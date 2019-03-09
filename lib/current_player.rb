@@ -11,12 +11,11 @@ end
 
 
 def turn_count(board)
-  turns = 0
+  turns = -1
   board.each do |item|
     if item!=" "
       turns += 1
     end
   end
-  puts turns
   return turns
 end
