@@ -1,9 +1,9 @@
-def current_player(turn_count)
-  if turn_count.even?
-    print "X"
+def current_player(board)
+  if turn_count(board).even?
+    
     return "X"
   else
-    print "O"
+    
     return "O"
   end
 end
@@ -15,9 +15,9 @@ def turn_count(board)
       turns += 1
     end
   end
-  puts turns
+  
   return turns
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-current_player(turn_count(board))
+current_player(board)
