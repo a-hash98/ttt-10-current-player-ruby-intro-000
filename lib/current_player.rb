@@ -15,7 +15,7 @@ def turn_count(board)
       turns += 1
     end
   end
-  #puts turns
+  puts turns
   return turns
 end
 
