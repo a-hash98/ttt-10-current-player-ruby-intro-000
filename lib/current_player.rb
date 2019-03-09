@@ -4,7 +4,6 @@ def current_player(turn_count)
     return "X"
   else
     return "O"
- end
 end
 
 def turn_count(board)
