@@ -18,4 +18,4 @@ end
 
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-current_player(turn_count)
+current_player(turn_count(board))
