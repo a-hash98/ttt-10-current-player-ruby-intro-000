@@ -19,6 +19,5 @@ def turn_count(board)
   return turns
 end
 
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 current_player(turn_count(board))
