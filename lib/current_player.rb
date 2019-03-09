@@ -1,5 +1,6 @@
 
-
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+current_player(board)
 
 def current_player(turn_count)
   if turn_count(board).even? || "0"
@@ -7,8 +8,6 @@ def current_player(turn_count)
   else return "O"
  end
 end
-
-
 
 def turn_count(board)
   turns = 0
